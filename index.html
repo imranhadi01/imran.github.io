@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sarina&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="all.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sacramento&family=Sarina&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Rajdhani:wght@600&family=Roboto:wght@300&family=Sacramento&family=Sarina&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header class="header">
+    <div id="overlay" >
+      <span style="font-size: 3em; color:#f1f1f1;">
+        <i onclick="off()"  class="fas fa-times" ></i>
+        </span>
+      <!--  -->
+    
+  <div id="text">
+      <a href="#about" onclick="off()"> About me </a><br>
+      <a  href="#education" onclick="off()"> Education </a><br>
+      <a  href="#skills" onclick="off()"> My skills </a><br>
+      <a href="#trailer" onclick="off()"> Video </a><br>
+      <a href="#contact" onclick="off()"> Contacts </a><br>
+    </div>
+    </div>
+
+    <div class="menubtn" style="padding:20px">
+     
+  <span style="font-size: 2.5em; color:#45A29E;">
+    <i onclick="on()" class="fas fa-bars"></i>
+  </span>
+  <!--  -->
+  <h1 class="main-title" style=" font-family: 'Courgette', cursive;;">Muhammad Imran <br> 
+    <br>
+    <span class="thin" style="font-family: arial; "  > //Tech Enthusiast</span> </h1>
+    </div>
+</header>
+<div class="about" id="about">
+<img src="user.svg" alt="" class="myimg" id="aboutimg">
+<h1 class="aboutpara">Who am i?</h1><br>
+<div class="aboutpara">
+<p>I'm imran, a 19 year old developer based in Pakistan. I always had a passion about technology, and at the age of 15, I started to discover the Web Development World. Since then, I learn and practice everyday.i m a open source contributer.I enjoy working and learning about computer science. Fields that interest me are Software development and Cyber Security.</p>
+</div>
+</div>
+<div class="education" id="education">
+<img class="myimg" src="education.svg" alt="">
+<h1 class="aboutpara">Education</h1>
+<div class="aboutpara">
+  <p>Pursuing Bachelor degree in Information Technology at MNS university of Agriculture Multan.
+    Senior Secondary by Govt Degree college. 
+    Secondary schooling by Zakariya public high School.</p>
+</div>
+
+</div>
+<div class="skills" id="skills">
+<img src="skills.svg" alt="" class="myimg">
+<h1>My Skills</h1>
+<div class="skillscard">
+<div class="skillcontainer">
+  <h4 class="cardheading" >Web Development</h4>
+  <p class="description"> At the age of 15 , I begun learning HTML5 and CSS3. I totally loved them and practice shapes my skills.</p>
+
+</div>
+<div class="skillcontainer">
+  <h4 class="cardheading" >JavaScript and React</h4>
+  <p class="description"> After learning Html and CSS i started learn JavaScript and then React. I created many projects using React   </p>
+</div>
+<div class="skillcontainer">
+  <h4 class="cardheading" >C++ And Python</h4>
+  <p class="description"> at 17 I started to learn C++ and Python.I know the object oriented programming.i m always learning </p>
+
+</div>
+
+</div>
+</div>
+<div class="video-trailer">
+  <video id="trailer" class="trailer" controls>
+    <source src="video.mp4" type="video/mp4">
+    <h3>Try opening on a modern browser </h3>
+  </video>
+</div>
+
+<div class="bottom">
+  <div class="contact" id="contact">
+    <h1 class="aboutpara" id="touch">Get in touch</h1>
+    <img src="contacts.svg" alt="" class="myimg" id="contactimg">
+    <p class="aboutpara" id="lpara">If you want to contact me, don't hesitate to. I love to work with you!</p>
+  <div class="pics">
+    <span style="font-size: 3em; color:#66fcf1;">
+      <a href="https://twitter.com/i_m_imraan?s=09">  <i  class="fab fa-twitter"></i></a>
+    <a  href="https://www.instagram.com/i.m.imraaan"> <i class="fab fa-instagram"></i></a>
+    <a href="https://www.youtube.com/channel/UCB4YG3Lcye88SoN1v0wMXCQ"><i class="fab fa-youtube"></i></a>
+    <a href="#gmail"></a><i class="far fa-envelope"></i></a>
+    
+    </span>
+    <br>
+    <h5 id="gmail">Mail me: <span class="mail"> mijanjua1212@gmail.com</span> </h5><br>
+    <br>
+    <br>
+  </div>  
+  </div>
+  <footer class="footer">
+    &copy;
+    <script type="text/javascript">
+    var today = new Date();
+    var year = today.getFullYear();
+    document.write(year);
+    
+    </script>
+    <p>Muhammad Imran </p>
+    <br>
+  </footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}
+</script>
+   
+</body>
+</html> 
