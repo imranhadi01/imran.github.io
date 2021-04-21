@@ -1,7 +1,9 @@
 /* html{
     scroll-behavior: smooth;
 } */
-
+body{
+    width: 100%;
+}
 
 
 *{
@@ -75,27 +77,19 @@ a{
 }
 
 .main-title{
-    /* color: #45A29E;
-    font-size: 60px;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    left: 40%; */
-    position: absolute;
-    margin: 0;
+   
+    margin-top: 250px;
     padding: 10px;
     color: #66fcf1;
     text-align: center;
-    /* top: 50%;
-    left: 50%; */
     font-size: 50px;
-    top: 40%;
-    left: 35%;
+    font-weight: 600;
     font-family: 'Sarina';
 }
 .thin{
     font-family: sans-serif;
-    
+    margin-top:  px;
+
 }
 
 /* about image */
@@ -180,9 +174,21 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
+/* additional */
+.contact{
+    color: #66fcf1;
+    width: 70vw;
+    height: auto;
+    display: block;
+     margin-right: auto;
+    margin-left: auto;
+
+
+}
+
 .bottom{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-color: #1f2833;
     margin: auto;
     overflow-x: hidden;
@@ -210,6 +216,7 @@ a{
     display: block;
     margin-right: auto;
     margin-left: auto;
+    align-items: center;
 }
 /* #ig{
     position: absolute;
@@ -217,15 +224,14 @@ a{
 } */
 
 .pics{
-    width: 70vw;
-    float: right;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    left: 18vw;
-    padding: 15px;
-    cursor: pointer;
+    width: 230px;
     color: #66fcf1;
+    height: auto;
+    display: block;
+     margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    padding: 15px;
 }
 
 .pics a {
@@ -239,20 +245,18 @@ a{
     height: auto;
     width: 100%;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
+    /* position: relative;
     top: 15%;
-    left: 39%;
+    left: 39%; */
 }
 h5{
+    width: 300px;
     font-size: 18px;
-    padding: 5px;
+    margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif; 
-    position: absolute;
-    left: -2%;
-    margin-bottom: 20px;
     
 }
