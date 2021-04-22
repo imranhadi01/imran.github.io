@@ -1,2 +1,2 @@
 # imran.github.io
-My personalll website
+My personal website
